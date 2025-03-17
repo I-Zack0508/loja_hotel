@@ -1,0 +1,68 @@
+.secao_capa {
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://www.ahstatic.com/photos/5451_ho_00_p_1024x768.jpg');
+}
+
+.secao_capa p,
+.secao_capa h1 {
+    max-width: 550px;
+    font-family: 'Anybody', cursive;
+}
+
+.secao_capa{
+    display: flex;
+    align-items: center;
+}
+
+.secao_capa p {
+    font-size: 36px;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.secao_capa h1 {
+    text-transform: uppercase;
+    color: chocolate;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.secao_capa p,
+.secao_capa h1 {
+    max-width: 550px;
+    font-family: 'Anybody', cursive;
+}
+
+.secao_capa p {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.secao_capa h1 {
+    text-transform: uppercase;
+    color: orange;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+@media (max-width:768px) {
+    .secao_capa h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .secao_capa p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao_capa {
+        background-position: 90% center;
+    }
+}
