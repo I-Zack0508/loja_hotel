@@ -5,7 +5,7 @@ export default function Sobre() {
         <section>
             <div className={estilos.title_sobre}>
                 <h2>Sobre</h2>
-                <p>Lorem</p>
+                <p>Um poquinho sobre nósx</p>
             </div>
 
             <div className={estilos.sobre_content}>
@@ -17,7 +17,7 @@ export default function Sobre() {
 
                     <div className={estilos.text_sbr_content}>
                         <h3>Sobre</h3>
-                        <p>Lorem Impsu Dolor</p>
+                        <p>Somos uma rede hoteleira confivael que preza pela qualidade da experiência do hospede, buscamos fornecer momentos inisqueciveis para você, de A á Z </p>
                     </div>
 
                 </div>
@@ -28,8 +28,9 @@ export default function Sobre() {
                     </picture>
 
                     <div className={estilos.text_sbr_content}>
-                        <h3>Sobre</h3>
-                        <p>Lorem Impsu Dolor</p>
+                        <h3>Faça sua rezerva já</h3>
+                        <p>Faça sua primeira reserva agora e ganhe um bonûs de serviço de quarto 24H </p>
+                        <button>RESERVE JÁ</button>
                     </div>
 
                 </div>
