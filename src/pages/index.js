@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Topo from "../components/topo";
 import Capa from "../components/Capa";
 import Prudutos from '../components/SecaoProdutos'
+import Sobre from "@/components/Sobre";
 
 export default function Home() {
   return (
@@ -14,14 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Topo/>
+      <Topo />
 
       <section>
-      <Capa/>
+        <Capa />
       </section>
 
       <section>
-      <Prudutos/>
+        <Prudutos />
+      </section>
+
+
+      <section>
+        <Sobre />
       </section>
 
 
