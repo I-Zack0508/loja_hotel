@@ -4,6 +4,7 @@ import Topo from "../components/topo";
 import Capa from "../components/Capa";
 import Prudutos from '../components/SecaoProdutos'
 import Sobre from "@/components/Sobre";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -30,7 +31,9 @@ export default function Home() {
         <Sobre />
       </section>
 
-
+      <footer>
+        <Footer/>
+      </footer>
 
     </>
   );

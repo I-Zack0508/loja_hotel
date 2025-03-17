@@ -2,7 +2,7 @@ import estilos from './Sobre.module.css'
 
 export default function Sobre() {
     return (
-        <section>
+        <section className={estilos.container_sobre}>
             <div className={estilos.title_sobre}>
                 <h2>Sobre</h2>
                 <p>Um poquinho sobre nósx</p>
